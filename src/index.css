@@ -1,0 +1,71 @@
+body {
+    background-color: #CCCCCC;
+    font-family: Roboto, arial, sans-serif;
+}
+
+.todoApp {
+    display: block;
+    margin-left: 50px;
+    margin-top: 25px;
+    width: 800px;
+}
+
+.addTask {
+    display: block;
+    margin-top: 30px;
+}
+
+.addTaskButton {
+    display: inline-block;
+    margin-left: 20px;
+    background-color: #74726B;
+    border: 2px solid black;
+    box-shadow: 1px 2px;
+}
+
+.clearTaskButton, .resetTaskButton{
+    display: inline-block;
+    background-color: #74726B;
+    border: 2px solid black;
+    box-shadow: 1px 2px;
+    margin-top: 20px;
+}
+
+.clearTaskButton{
+    margin-right: 20px;
+}
+
+
+.addTaskInput {
+    display: inline-block;
+    width: 500px;
+    border: 2px solid black;
+}
+
+.activeTaskList {
+    margin-top: 40px;
+}
+
+.activeTaskList table {
+    width: 100%;
+}
+
+.activeTaskList th, td {
+    padding: 5px;
+}
+
+.appHeader {
+    text-align: center;
+}
+
+.appHeader h2 {
+    font: bold;
+}
+
+.appHeader hr {
+    border: 1px solid black;
+}
+
+.taskRemoveIcon {
+    margin-left: 10px;
+}
